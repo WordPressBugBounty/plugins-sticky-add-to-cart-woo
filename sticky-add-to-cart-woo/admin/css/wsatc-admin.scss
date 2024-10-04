@@ -1,0 +1,552 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/*layout style*/
+.wsatc-row {
+	border-bottom:1px solid #ccc;
+	font-weight: 500;
+}
+
+.wsatc-row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.wsatc-row.input-wrapper {
+	display:flex;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.wsatc-label-wrapper {
+	max-width: 275px;
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.wsatc-input{
+	max-width:30%;
+	width:100%;
+	padding: 10px;
+}
+
+
+
+ /* setting page wrapper*/
+ .wsatc-settings-wrapper{
+	background-color:#eaecef;
+	 display:flex;
+}
+
+#wsatc-settings{
+	position: relative;
+}
+
+/* Style the tab */
+.wsatc-tabs {
+
+	background: #3a4249;
+	border: 0;
+	width: 300px;
+	min-height:100%;
+	overflow: hidden;
+
+}
+
+.wsatc-hide {
+	display: none !important;
+}
+
+.wsatc-show {
+	display: block !important;
+}
+
+/* Style the tab content*/
+.tabs-content-wrapper {
+ padding: 0px 12px;
+ border: 1px solid #ccc;
+ /* max-width: 800px; */
+ width: calc( 100% - 300px );
+ border-left: none;
+ min-height: 500px;
+ 
+}
+/* Style the buttons inside the tab */
+.wsatc-tabs .tab-link,
+.wsatc-tabs .a-link {
+ display: block;
+ background-color: inherit;
+ color: #e0e3e8;
+ padding: 22px 25px;
+ width: 100%;
+ border: none;
+ outline: none;
+ text-align: left;
+ cursor: pointer;
+ transition: 0.3s;
+ font-size: 17px;
+ border-bottom: 1px solid #424a50;
+ font-weight: 600;
+ text-decoration: none;
+}
+
+.wsatc-tabs .tab-link:focus {
+	outline: none;
+	box-shadow: none !important;
+}
+.pro-menu {
+	background: #8425b1 !important;
+}
+.wsatc-tooltip {
+	position: relative;
+	display: inline-block;
+	width :15px;
+	border-radius: 50%;
+	background: #44abd1;
+	text-align: center;
+	color: #fff;
+	font-size: 11px;
+	line-height: initial !important;
+	cursor: help;
+	font-weight: 400;
+	
+}
+
+.wsatc-tooltip .tooltiptext {
+	visibility: hidden;
+	max-width: 250px;
+	min-width: 150px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 0 20px;
+	position: absolute;
+	z-index: 1;
+	top: 200%;
+	left: 50%;
+	transform: translateX( -50% );
+	box-sizing: border-box;
+	box-shadow: 0 1px 8px rgba(0,0,0,0.5);
+}
+
+.wsatc-tooltip .tooltiptext::after {
+	content: "";
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent black transparent;
+}
+
+.wsatc-tooltip:hover .tooltiptext {
+	visibility: visible;
+	width: max-content;
+}
+/* Change background color of buttons on hover */
+.wsatc-tabs button:hover {
+ background-color: #2d3136;
+}
+
+/* Create an active/current "tab button" class */
+.wsatc-tabs button.active {
+ background-color: #2d3136;
+}
+
+/* Style the tab content */
+.wsatc-tab-content {
+	display:none;
+}
+.wsatc-tab-content.active{
+	display:block;
+}
+
+
+/*===============================
+						Elemets style
+================================*/
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 44px;
+	height: 25px;
+
+}
+
+.switch input { 
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 18px;
+	width: 18px;
+	left: 3px;
+	bottom: 3px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked + .slider {
+	background-color: #2196F3;
+}
+
+input:focus + .slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+	-webkit-transform: translateX(18px);
+	-ms-transform: translateX(18px);
+	transform: translateX(18px);
+}
+
+/* Rounded sliders */
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+#wsatc-submit-opition{
+	margin:10px 0;
+}
+/* #wsatc-submit-opition .button-primary{
+	float: right;
+} */
+/*---input style---*/
+
+.wsatc-input input{
+	width: 100% !important;
+	padding: 5px 10px;
+}
+/*---select style---*/
+.wsatc-select {
+	display: block;
+	font-size: 14px;
+	line-height: 1.5;
+	padding: 0 10px !important;
+	width: 100%;
+	max-width: 100%; 
+	box-sizing: border-box;
+	margin: 0;
+	border: 1px solid #aaa;
+	box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+	border-radius: .2em;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: #fff;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+		linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+	background-repeat: no-repeat, repeat;
+	background-position: right .7em top 50%, 0 0;
+	background-size: .65em auto, 100%;
+}
+.wsatc-select::-ms-expand {
+	display: none;
+}
+.wsatc-select:hover {
+	border-color: #888;
+}
+.wsatc-select:focus {
+	border-color: #aaa;
+	box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+	box-shadow: 0 0 0 3px -moz-mac-focusring;
+	color: #222; 
+	outline: none;
+}
+.wsatc-select option {
+	font-weight:normal;
+}
+/*--loader--*/
+
+.loader-containter{
+	position: absolute;
+	height:calc( 100% - 35px);
+	width:100%;
+	background:rgba( 0,0,0,0.7);
+	z-index:15;
+	display:none;
+}
+
+.loader-containter.display{
+	display: block;
+}
+
+.loader{
+	width:60px;
+	height:60px;
+	border-radius:150px;
+	border:5px solid #fff;
+	border-top-color:rgba(0,0,0,0.3);
+	box-sizing:border-box;
+	position:absolute;
+	top:50%;
+				left:50%;
+	
+	animation:loader 1.2s linear infinite;
+	-webkit-animation:loader 1.2s linear infinite;
+}
+@keyframes loader{
+	0%{transform:rotate(0deg)}
+	100%{transform:rotate(360deg)}
+}
+@-webkit-keyframes loader{
+	0%{-webkit-transform:rotate(0deg)}
+	100%{-webkit-transform:rotate(360deg)}
+}
+
+.pro-badge {
+	display: inline-block;
+	background: rgb(132,37,177);
+	color: #fff;
+	padding: 2px 5px;
+	font-weight: 400;
+	border-radius: 5px;
+	font-size: 12px;
+	line-height: initial !important;
+	text-decoration: none;
+	margin-left: 3px;
+}
+
+.pro-badge:hover {
+	color: #fff;
+}
+
+.toplevel_page_woo-sticky-add-to-cart  #wpcontent{
+	padding-left: 10px;
+	 background-color: #eaecef;
+}
+
+.toplevel_page_wsatc #wpbody h1{
+	color: #fff;
+	margin: 0;
+	padding: 20px 10px;
+	background: #ce6a5f;
+}
+
+.pro_setting{
+	background: #dae3e8;
+
+}
+.pro_setting .wsatc-label-wrapper{
+	font-weight: 700;
+}
+
+#license-manager {
+	color: #5fcf80 !important;
+}
+
+.license-manager.active + #wsatc-submit-opition{
+	display : none;
+}
+.license-manager {
+	.wsatc-input {
+		max-width: 100%;
+		input {
+				max-width: 300px;
+		}
+	}
+	.lic-action-btn {
+		margin-top: 10px !important;
+	}
+}
+
+
+/*--toaster--*/
+#snackbar {
+	visibility: hidden;
+	min-width: 250px;
+	margin-left: -125px;
+	background-color: #599d5c;
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+	padding: 16px;
+	position: fixed;
+	z-index: 1;
+	right: 100px;
+	top: 60px;
+	font-size: 17px;
+}
+
+.wsatc-tab-content .wp-picker-container input{
+	width: 4rem !important;
+}
+#snackbar.show {
+	visibility: visible;
+	-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+	animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+	from {top: 0; opacity: 0;} 
+	to {top: 60px; opacity: 1;}
+}
+
+@keyframes fadein {
+	from {top: 0; opacity: 0;}
+	to {top: 60px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+	from { opacity: 1;} 
+	to { opacity: 0;}
+}
+
+@keyframes fadeout {
+	from { opacity: 1;}
+	to { opacity: 0;}
+}
+
+
+/*----Dashboard Widget ---*/
+
+#dashboard_widget .wsatc-analytics-header-counter-wrapper {
+	margin-right: -15px;
+}
+
+#dashboard_widget .wsatc-header-analytics-counter-wrapper {
+	flex-direction: column;
+	margin-bottom: 0;
+}
+
+#dashboard_widget .wsatc-analytics-header-counter-wrapper .wsatc-header-analytics-counter-wrapper > div:not(:last-child) {
+	border-bottom: 1px solid #f2f2f2;
+}
+
+#dashboard_widget .wsatc-header-analytics-counter a {
+	padding: 25px;
+}
+
+#dashboard_widget .wsatc-header-analytics-counter a img {
+	width: 50px;
+}
+
+#dashboard_widget .wsatc-header-analytics-counter a .wsatc-counter-number {
+	font-size: 30px;
+}
+
+#dashboard_widget .wsatc-header-analytics-counter a .wsatc-counter-label {
+	font-size: 14px;
+}
+
+/*----Analytics Page -----*/
+
+
+
+h1.wstac-header {
+	color: #fff;
+	margin: 0;
+	padding: 20px 10px;
+	background: #ff8264;
+	margin-bottom: 15px;
+}
+
+.wsatc-header-analytics-counter-wrapper {
+	display: flex;
+	margin-bottom: 20px;
+	justify-content: space-between;
+	margin-left:-15px;
+}
+
+.wsatc-header-analytics-counter {
+	background-color: #fff;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.wsatc-header-analytics-counter-wrapper > div {
+	flex: 1;
+	flex-basis: calc(30.3333% - 15px);
+	padding: 0 15px;
+}
+
+.wsatc-header-analytics-counter> a {
+	color: #4c4d57;
+	padding: 45px 30px;
+	display: block;
+	text-decoration: none;
+	display: flex;
+}
+
+.wsatc-header-analytics-counter .wsatc-counter-number {
+	font-size: 50px;
+	line-height: 1;
+	letter-spacing: 2px;
+	display: block;
+}
+
+.wsatc-header-analytics-counter span.wsatc-counter-label {
+	font-size: 20px;
+	line-height: 1;
+	letter-spacing: 1px;
+}
+
+.wsatc-header-analytics-counter  .wsatc-counter-icon{
+	margin-right: 20px;
+}
+
+.wsatc-stats-tease {
+	color: #888;
+	cursor: pointer;
+	position: relative;
+}
+
+.wsatc-stats-tease > img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	max-width:100%;
+	height: auto;
+}
+
+.wsatc-stats-pro-tease > a {
+	background-color: #FF8264;
+	color: #fff;
+	padding: 15px 40px;
+	border-radius: 3px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.wsatc-stats-pro-tease {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(255,255,255,.4);
+}
+
+.ui-widget-header .ui-icon{
+	background-image: url( ../img/ui-icons.png);
+}
+

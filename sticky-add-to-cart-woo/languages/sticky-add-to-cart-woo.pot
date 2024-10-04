@@ -1,0 +1,585 @@
+# Copyright (C) 2021 WPGULP
+# This file is distributed under the same license as the WPGULP package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPGULP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: SharazShahid <sharazg5@gmail.com>\n"
+"Last-Translator: SharazShahid <sharazg5@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://solbox.dev/contact/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/class-wsatc-admin.php:138, admin/class-wsatc-admin.php:148
+msgid "WooCommerce Sticky Add To Cart"
+msgstr ""
+
+#: admin/class-wsatc-admin.php:139
+msgid "Sticky Add To Cart"
+msgstr ""
+
+#: admin/class-wsatc-admin.php:149
+msgid "Settings"
+msgstr ""
+
+#: admin/class-wsatc-admin.php:155, admin/class-wsatc-admin.php:155
+msgid "Analytics"
+msgstr ""
+
+#: admin/class-wsatc-admin.php:165, admin/class-wsatc-admin.php:176
+msgid "Simple Sticky Add To Cart For WooCommerce"
+msgstr ""
+
+#: admin/class-wsatc-admin.php:356
+msgid "Pro Feature"
+msgstr ""
+
+#: admin/class-wsatc-admin.php:411
+msgid "Select a category"
+msgstr ""
+
+#: admin/class-wsatc-admin.php:414
+msgid "Uncategorized"
+msgstr ""
+
+#: admin/class-wsatc-admin.php:437
+msgid "%1$s %3$s Go Pro %4$s %2$s"
+msgstr ""
+
+#: admin/partials/wsatc-admin-analytics-counter.php:7, admin/partials/wsatc-admin-analytics-counter.php:11
+msgid "Total Views"
+msgstr ""
+
+#: admin/partials/wsatc-admin-analytics-counter.php:20, admin/partials/wsatc-admin-analytics-counter.php:24
+msgid "Total Clicks"
+msgstr ""
+
+#: admin/partials/wsatc-admin-analytics-counter.php:33, admin/partials/wsatc-admin-analytics-counter.php:37
+msgid "Click Through Rate"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:33
+msgid "Visibility Settings"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:35
+msgid "Activation"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:37
+msgid "Enable or Disable simple sticky cart"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:49
+msgid "Show after Scroll"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:51
+msgid "Either you want show after scroll or always"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:63
+msgid "Enable On Desktop"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:65
+msgid "Enable or Disable on Desktop"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:75
+msgid "All devices have width greater than 1024px"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:79
+msgid "Enable On Tablet"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:81
+msgid "Enable or Disable on Tablet"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:91
+msgid "All devices have width between 600px - 1024px"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:95
+msgid "Enable on Mobile"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:97
+msgid "Enable or Disable on Mobile"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:107
+msgid "All devices have width less than 600px"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:113
+msgid "Design Settings"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:115
+msgid "Background Color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:117
+msgid "Background color of sticky bar."
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:127
+msgid "Box Shadow Color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:129
+msgid "Sticky bar shadow color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:139
+msgid "Text Color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:141
+msgid "Text color in sticky bar"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:150
+msgid "Product Title Color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:152
+msgid "Product title color in sticky"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:162
+msgid "Price Text Color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:164
+msgid "Product price text color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:174
+msgid "Price Badge Color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:176
+msgid "Product price badge color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:186
+msgid "Sale Text Color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:188
+msgid "sale text color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:198
+msgid "Sale Badge Color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:200
+msgid "Sale badge color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:210
+msgid "Review Stars Color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:212
+msgid "rating stars color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:222
+msgid "Review Stars Outline Color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:224
+msgid "rating stars outline color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:235
+msgid "Reviews Count Color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:237
+msgid "review count text color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:247
+msgid "Button Color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:249
+msgid "Add to cart button color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:259
+msgid "Button Hover Color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:261
+msgid "Add to cart button hover color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:271
+msgid "Button Text Color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:273
+msgid "Add to cart button text color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:283
+msgid "Button Hover Text Color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:285
+msgid "Add to cart button text hover color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:295
+msgid "Stock Text Color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:297
+msgid "In Stock Text Color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:306, admin/partials/wsatc-admin-display.php:308
+msgid "Out Stock Text Color"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:320
+msgid "Configuration Settings"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:323
+msgid "Simple Product Button Text"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:325
+msgid "Add to cart button text "
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:336
+msgid "Variable Product Button Text"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:338
+msgid "Add to cart button text for variable product."
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:348
+msgid "Variable Product Behavior"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:350
+msgid "move  to top add to cart button. "
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:356
+msgid "Add to Cart"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:358, public/class-wsatc-public.php:191
+msgid "Select Options"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:363
+msgid "Sticky Bar Position"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:365
+msgid "Either to show top or bottom of the page"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:371
+msgid "Top"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:373
+msgid "Bottom"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:378
+msgid "Show After Scroll Pixels"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:380
+msgid "Show sticky bar after how many pixel scroll. Make sure you already activated <b>Show After Scroll</b> from Visibility section"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:386
+msgid "10"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:390
+msgid "Cart Button Style"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:392
+msgid "Add to cart button styles"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:399, admin/partials/wsatc-admin-display.php:417, admin/partials/wsatc-admin-display.php:488, admin/partials/wsatc-admin-display.php:643
+msgid "Square"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:401, admin/partials/wsatc-admin-display.php:419, admin/partials/wsatc-admin-display.php:486, admin/partials/wsatc-admin-display.php:641
+msgid "Round"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:402
+msgid "Half Round"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:403
+msgid "Half Round 2"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:408, admin/partials/wsatc-admin-display.php:410
+msgid "Product Image Style"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:424
+msgid "Hide On Products"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:426
+msgid "Hide sticky bar on specific products"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:434
+msgid "1,2,3 comma separated product ID"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:438
+msgid "Hide On Product Category"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:440
+msgid "Hide sticky bar on product categories"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:447
+msgid "1,2,3 comma separated category ID"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:452
+msgid "Sale Badge"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:454
+msgid "Show sale/offer badge"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:466
+msgid "Sale Badge Text"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:468
+msgid "Sale Offer Badge Text"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:474
+msgid "Sale"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:478
+msgid "Sale Badge Style"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:480, admin/partials/wsatc-admin-display.php:635
+msgid "sale badge style "
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:493
+msgid "Review Stars"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:495
+msgid "Display stars rating"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:507
+msgid "Review Count"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:509
+msgid "Display stars rating count"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:521
+msgid "Box Shadow "
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:523
+msgid "Show sticky cart box shadow"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:535
+msgid "Stock Count"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:537
+msgid "Show stock count"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:549
+msgid "Show Product image"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:551
+msgid "Show product image in sticky bar"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:563
+msgid "Ajax Add to Cart"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:565
+msgid "Ajax add to cart with out page reload."
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:578
+msgid "Cart Button Animation"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:580
+msgid "Animation for cart button. "
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:586
+msgid "None"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:588
+msgid "Wiggle"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:590
+msgid "Horizontal"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:592
+msgid "Vertical"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:594
+msgid "Shake"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:596
+msgid "Wobble"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:604
+msgid "Price Range On Variable Product"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:606
+msgid "Show price range on variable product"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:619
+msgid "Show Price"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:621
+msgid "Enable / Disable to show price"
+msgstr ""
+
+#: admin/partials/wsatc-admin-display.php:633
+msgid "Price Badge Style"
+msgstr ""
+
+#: admin/partials/wsatc-setting-tabs.php:2
+msgid "Visibillity"
+msgstr ""
+
+#: admin/partials/wsatc-setting-tabs.php:3
+msgid "Design"
+msgstr ""
+
+#: admin/partials/wsatc-setting-tabs.php:4
+msgid "Fonts"
+msgstr ""
+
+#: admin/partials/wsatc-setting-tabs.php:5
+msgid "Configuration"
+msgstr ""
+
+#: admin/partials/wsatc-setting-tabs.php:6
+msgid "Support"
+msgstr ""
+
+#: admin/partials/wsatc-setting-tabs.php:8
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: admin/partials/wsatc-size-settings.php:2
+msgid "Fonts Settings"
+msgstr ""
+
+#: admin/partials/wsatc-size-settings.php:5
+msgid "Title Font size"
+msgstr ""
+
+#: admin/partials/wsatc-size-settings.php:7
+msgid "Product title font size"
+msgstr ""
+
+#: admin/partials/wsatc-size-settings.php:18
+msgid "Add to Cart Button Font size"
+msgstr ""
+
+#: admin/partials/wsatc-size-settings.php:20
+msgid "Add to cart button font size"
+msgstr ""
+
+#: admin/partials/wsatc-size-settings.php:31
+msgid "Price Font size"
+msgstr ""
+
+#: admin/partials/wsatc-size-settings.php:33
+msgid "Product price in sticky bar"
+msgstr ""
+
+#: admin/partials/wsatc-size-settings.php:44
+msgid "Sale Font size"
+msgstr ""
+
+#: admin/partials/wsatc-size-settings.php:46
+msgid "Sale text in sticky bar font size"
+msgstr ""
+
+#: admin/partials/wsatc-size-settings.php:57
+msgid "Stock management Font size"
+msgstr ""
+
+#: admin/partials/wsatc-size-settings.php:59
+msgid "Stock count and text in sticky bar font size"
+msgstr ""
+
+#: admin/partials/wsatc-size-settings.php:70
+msgid "Review Font size"
+msgstr ""
+
+#: admin/partials/wsatc-size-settings.php:72
+msgid "review stars and count in  sticky bar font size"
+msgstr ""
+
+#: public/class-wsatc-public.php:217
+msgid " in stock"
+msgstr ""
+
+#: public/class-wsatc-public.php:214
+msgid "Out of stock"
+msgstr ""
