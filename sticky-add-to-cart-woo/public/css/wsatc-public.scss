@@ -42,7 +42,7 @@
 .wsatc-stick-cart-wrapper.active {
 	opacity: 1;
 	visibility: visible;
-	z-index: 100;
+	z-index: 999;
 	/* transform: translateY(0); */
 }
 .wsatc-stick-cart-wrapper.simple-aniamate.active{

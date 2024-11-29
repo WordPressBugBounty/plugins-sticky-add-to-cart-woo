@@ -3,15 +3,16 @@
  * Plugin Name: Simple Sticky Add To Cart For WooCommerce
  * Plugin URI: https://solbox.dev/plugins/sticky-cart/?utm_source=freemium&utm_medium=author-uri&utm_campaign=go_pro
  * Description: Simple Sticky Add To Cart For WooCommerce use to show sticky add to cart on product page. Its helps to grab more sale rather than boring WooCommerce add to cart button. It support ajax add to cart, color customization according to theme, variable product sticky cart and much more.
- * Version: 1.4.4
+ * Version: 1.4.5
  * Author: Solution Box
  * Author URI: https://solbox.dev/
  * License: GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain: woo-sticky-add-to-cart
+ * Requires Plugins: woocommerce
  * Domain Path: /languages
  * WC requires at least: 5.0
- * WC tested up to: 8.8.3
+ * WC tested up to: 9.4.2
  */
 
 
@@ -25,11 +26,11 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'WSATC_VERSION', '1.4.3' );
+define( 'WSATC_VERSION', '1.4.5' );
 define( 'WSATC_DIR_PATH', plugin_dir_path( __FILE__ ) );
 define( 'WSATC_DIR_URL', plugin_dir_url( __FILE__ ) );
 define( 'WSATC_PRO_LINK', 'https://solbox.dev/plugins/sticky-cart/?utm_source=freemium&utm_medium=dashbaord&utm_campaign=go_pro' );
-define( 'WSATC_BLACK_FRIDAY', '2023-12-05' );
+define( 'WSATC_BLACK_FRIDAY', '2024-12-29' );
 
 /**
  * The code that runs during plugin activation.
