@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
   var stickyBar = document.querySelector('#wsatc-stick-cart-wrapper .wsatc-add-to-cart');
   if (stickyBar) {
     stickyBar.addEventListener('click', function (e) {
-      doAction('wsatc_button_before_click');
+      doAction('wsatc_button_before_click', e);
       AnalyticsPush('click');
       if (isExternalProduct) {
         e.preventDefault();
@@ -121,25 +121,22 @@ function wsatcChangeURL() {
   document.querySelector(".wsatc-add-to-cart").href = url;
 }
 function AnalyticsPush() {
-
-  if( '1' !== WSATC.isAdmin ) {
-    var eventType = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'view';
-    var productID = document.querySelector(".wsatc-container").dataset.productId;
-    var formData = new FormData();
-    formData.append('action', 'wsatc_pro_analytics');
-    formData.append('security', WSATC.nonce);
-    formData.append('event_type', eventType);
-    formData.append('post_id', productID);
-    fetch(WSATC.ajaxUrl, {
-      method: 'POST',
-      body: formData
-    }).then(function (res) {
-      return res.json();
-    }) // parse response as JSON (can be res.text() for plain response)
-    .then(function (response) {
-      console.log("WooCommerce Sticky Add to Cart ".concat(eventType, " added"));
-    }).catch(function (err) {
-      console.log("sorry, product not added to cart");
-    });
-  }
+  var eventType = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'view';
+  var productID = document.querySelector(".wsatc-container").dataset.productId;
+  var formData = new FormData();
+  formData.append('action', 'wsatc_pro_analytics');
+  formData.append('security', WSATC.nonce);
+  formData.append('event_type', eventType);
+  formData.append('post_id', productID);
+  fetch(WSATC.ajaxUrl, {
+    method: 'POST',
+    body: formData
+  }).then(function (res) {
+    return res.json();
+  }) // parse response as JSON (can be res.text() for plain response)
+  .then(function (response) {
+    console.log("WooCommerce Sticky Add to Cart ".concat(eventType, " added"));
+  }).catch(function (err) {
+    console.log("sorry, product not added to cart");
+  });
 }

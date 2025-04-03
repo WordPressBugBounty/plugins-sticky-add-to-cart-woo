@@ -172,7 +172,7 @@ class Wsatc {
 		$this->loader->add_action( 'wp_ajax_wsatc_deactivation_feedback', $plugin_admin, 'deactivation_feedback' );
 		$this->loader->add_action( 'wp_dashboard_setup', $plugin_admin, 'admin_home_widget' );
 		$this->loader->add_action( 'admin_notices', $plugin_admin, 'black_friday_notice' );
-		// $this->loader->add_action( 'admin_notices', $plugin_admin, 'ask_review_notice' );
+		$this->loader->add_action( 'admin_notices', $plugin_admin, 'ask_review_notice' );
 
 		$this->loader->add_filter( 'plugin_row_meta', $plugin_admin, 'plugin_row_meta', 10, 2 );
 		$this->loader->add_filter( 'solbox_deactivate_feedback_form_plugins', $plugin_admin, 'deactivate_feedback_form', 10, 2 );

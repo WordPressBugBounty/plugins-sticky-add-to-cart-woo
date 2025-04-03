@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
 	if (stickyBar) {
 		stickyBar.addEventListener('click', (e) => {
-			doAction( 'wsatc_button_before_click');
+			doAction( 'wsatc_button_before_click', e );
 			AnalyticsPush( 'click' );
 			if ( isExternalProduct ) {
 				e.preventDefault();
