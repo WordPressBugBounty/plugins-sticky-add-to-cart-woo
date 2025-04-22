@@ -30,5 +30,11 @@ class Wsatc_Activator {
 	 * @since    1.0.0
 	 */
 	public static function activate() {
+
+
+		if ( ! get_option( 'wastc_activation_time') ){
+		update_option( 'wastc_activation_time', current_time( 'timestamp' ) );
+		}
+
 	}
 }

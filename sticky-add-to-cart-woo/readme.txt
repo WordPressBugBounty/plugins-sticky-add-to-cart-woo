@@ -6,7 +6,7 @@ Tags: sticky add to cart, woocommerce, stick bar for woocommerce, woocommerce st
 Requires at least: 5.0
 Tested up to: 6.7.2
 Requires PHP: 7.0
-Stable tag: 1.4.6
+Stable tag: 1.4.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -92,7 +92,10 @@ Simple Sticky Add To Cart Bar For WooCommerce is use to add sticky add to cart b
 
 == Changelog ==
 
-= 1.4.5  30-11-2024 =
+= 1.4.7  22-04-2025 =
+* [compatible] : WP 6.7.2 compatibility added
+
+= 1.4.6  30-11-2024 =
 * [compatible] : WP 6.7.2 compatibility added
 * [compatible] : WC  9.7.1 compatibility added
 
