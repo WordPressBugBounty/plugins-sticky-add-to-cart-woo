@@ -3,7 +3,7 @@
  * Plugin Name: Simple Sticky Add To Cart For WooCommerce
  * Plugin URI: https://solbox.dev/plugins/sticky-cart/?utm_source=freemium&utm_medium=author-uri&utm_campaign=go_pro
  * Description: Simple Sticky Add To Cart For WooCommerce use to show sticky add to cart on product page. Its helps to grab more sale rather than boring WooCommerce add to cart button. It support ajax add to cart, color customization according to theme, variable product sticky cart and much more.
- * Version: 1.4.7
+ * Version: 1.4.8
  * Author: Solution Box
  * Author URI: https://solbox.dev/
  * License: GPL-2.0+

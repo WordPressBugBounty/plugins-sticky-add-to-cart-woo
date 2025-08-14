@@ -680,4 +680,41 @@ class Wsatc_Admin {
 			<a href='" . $dismiss_bfn_url . "' class='void-grid-review-done'>  Already Done !</a></p> 
  		</div>";
 	}
+
+	/**
+	 * Active maintenance notice.
+	 */
+	public function active_maintenance_notice() {
+
+		// Don't show notice if user has pro version
+		if ( wsatc_is_pro() ) {
+			return;
+		}
+
+		if ( isset( $_GET['amn_dismiss'] ) && isset( $_GET['_wpnonce'] ) ) {
+			if ( wp_verify_nonce( $_GET['_wpnonce'], 'amn_dismiss' ) ) {
+				update_option( 'wsatc_amn_dismiss', true );
+			}
+		}
+
+		$already_done    = get_option( 'wsatc_amn_dismiss' );
+		$dismiss_amn_url = add_query_arg(
+			array(
+				'amn_dismiss' => '1',
+				'_wpnonce'    => wp_create_nonce( 'amn_dismiss' ),
+			),
+			get_admin_url()
+		);
+
+		if ( $already_done ) {
+			return;
+		}
+
+		echo "<div class='notice notice-success is-dismissible'>
+			<p><strong>🚀 Simple Sticky Add To Cart For WooCommerce</strong> - We are actively working on and will maintain this product continuously to gain your trust! 💪</p>
+			<p>Our development team is committed to providing regular updates, bug fixes, and new features to ensure the best experience for your WooCommerce store.</p>
+			<p><strong>🎉 Special Offer:</strong> Get <strong>50% OFF</strong> on all plans for the next month! Use coupon code: <code style='background: #f0f0f0; padding: 2px 6px; border-radius: 3px; font-weight: bold;'>50_OFF</code></p>
+			<p><a href='https://solbox.dev/plugins/sticky-cart/?utm_source=notice&utm_medium=free_plugin&utm_campaign=50_off_promo' target='_blank' class='button button-primary'>Get 50% OFF Now</a> <a href='" . $dismiss_amn_url . "' class='button button-secondary'>Dismiss this notice</a></p>
+		</div>";
+	}
 }

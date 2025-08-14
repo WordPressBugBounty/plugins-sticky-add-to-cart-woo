@@ -140,6 +140,11 @@ function wsatcChangeURL( productID = 0, qty = 0  ) {
 }
 
 function AnalyticsPush( eventType = 'view' ) {
+	// Don't track analytics for admin users
+	if (WSATC.isAdmin) {
+		return;
+	}
+	
 	const  productID = document.querySelector(".wsatc-container").dataset.productId;
 	const formData = new FormData();
 	formData.append( 'action', 'wsatc_pro_analytics' );

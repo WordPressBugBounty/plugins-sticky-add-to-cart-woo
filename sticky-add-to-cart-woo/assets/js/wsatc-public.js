@@ -122,6 +122,10 @@ function wsatcChangeURL() {
 }
 function AnalyticsPush() {
   var eventType = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'view';
+  // Don't track analytics for admin users
+  if (WSATC.isAdmin) {
+    return;
+  }
   var productID = document.querySelector(".wsatc-container").dataset.productId;
   var formData = new FormData();
   formData.append('action', 'wsatc_pro_analytics');
