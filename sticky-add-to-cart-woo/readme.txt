@@ -4,9 +4,9 @@ Author URI: https://solbox.dev/plugins/sticky-cart/?utm_source=freemium&utm_medi
 Donate link: https://solbox.dev/
 Tags: sticky add to cart, woocommerce, stick bar for woocommerce, woocommerce sticky bar, woocommerce upsells,
 Requires at least: 5.0
-Tested up to: 6.8.2
+Tested up to: 6.9.1
 Requires PHP: 7.0
-Stable tag: 1.4.8
+Stable tag: 1.4.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -93,7 +93,13 @@ Simple Sticky Add To Cart Bar For WooCommerce is use to add sticky add to cart b
 == Changelog ==
 
 
-= 1.4.7  22-04-2025 =
+
+= 1.4.9  21-01-2025 =
+* [compatible] : WP 6.9.1 compatibility added
+* [compatible] : WC 10.4.3 compatibility added
+
+
+= 1.4.8  22-04-2025 =
 * [Bugfix]     : Don't count admin view on analytics
 * [compatible] : WP 6.8.2 compatibility added
 
